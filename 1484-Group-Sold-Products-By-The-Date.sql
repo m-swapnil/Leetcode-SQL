@@ -5,3 +5,4 @@ SELECT
 FROM Activities
 GROUP BY sell_date
 ORDER BY sell_date;
+
