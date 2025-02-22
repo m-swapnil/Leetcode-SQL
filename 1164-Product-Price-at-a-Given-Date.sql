@@ -1,4 +1,4 @@
-SELECT 
+SELECT
     p.product_id, 
     COALESCE(
         (SELECT new_price 
