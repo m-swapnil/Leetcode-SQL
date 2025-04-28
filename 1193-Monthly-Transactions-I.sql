@@ -5,7 +5,7 @@ SELECT
     SUM(amount) AS trans_total_amount,
     COUNT(CASE WHEN state = 'approved' THEN 1 END) AS approved_count,
     SUM(CASE WHEN state = 'approved' THEN amount ELSE 0 END ) AS approved_total_amount
-FROM 
+FROM
     Transactions
 GROUP BY
      month,country
