@@ -1,4 +1,4 @@
-SELECT 
+SELECT
     p.product_id,
     ROUND(COALESCE(SUM(p.price * u.units) / NULLIF(SUM(u.units), 0), 0), 2) AS average_price
 FROM 
