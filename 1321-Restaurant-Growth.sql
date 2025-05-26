@@ -1,4 +1,4 @@
-select a.visited_on, 
+select a.visited_on,
     sum(b.amount) amount,
     round(sum(b.amount)/7,2) average_amount
 from (select visited_on, sum(amount) amount from Customer GROUP BY visited_on) a, 
