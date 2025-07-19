@@ -1,7 +1,7 @@
 SELECT
     p.product_id,
     COALESCE(
-        (SELECT new_price 
+        (SELECT new_price
          FROM Products p2 
          WHERE p2.product_id = p.product_id 
            AND p2.change_date <= '2019-08-16' 
