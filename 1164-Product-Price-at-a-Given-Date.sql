@@ -1,5 +1,5 @@
 SELECT
-    p.product_id, 
+    p.product_id,
     COALESCE(
         (SELECT new_price 
          FROM Products p2 
