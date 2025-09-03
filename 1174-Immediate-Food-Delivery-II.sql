@@ -4,6 +4,6 @@ FROM Delivery
 WHERE (customer_id, order_date) IN 
 (
     SELECT customer_id, MIN(order_date) AS first_order_date
-    FROM Delivery  
+    FROM Delivery
     GROUP BY customer_id
 );
