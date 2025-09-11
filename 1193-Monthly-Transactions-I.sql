@@ -1,4 +1,4 @@
-SELECT
+SELECT 
     DATE_FORMAT(trans_date, '%Y-%m') AS month,
     country ,
     COUNT(id) AS trans_count,
