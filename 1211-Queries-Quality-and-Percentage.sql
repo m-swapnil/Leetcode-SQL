@@ -7,7 +7,7 @@ SELECT
     ) AS poor_query_percentage
 FROM
     Queries
-GROUP BY 
+GROUP BY
     query_name
 HAVING
     query_name IS NOT NULL;
