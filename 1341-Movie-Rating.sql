@@ -1,4 +1,4 @@
-(SELECT name AS results
+(SELECT name AS results 
 FROM MovieRating JOIN Users USING(user_id)
 GROUP BY name 
 ORDER BY COUNT(*) DESC, name
