@@ -1,4 +1,4 @@
-SELECT
+SELECT 
     p.product_name,
     SUM(o.unit) AS unit
 FROM
