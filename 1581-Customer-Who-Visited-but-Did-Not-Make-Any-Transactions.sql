@@ -1,4 +1,4 @@
-SELECT
+SELECT 
     Visits.customer_id,
     COUNT(Visits.visit_id) AS count_no_trans
 FROM 
