@@ -1,6 +1,6 @@
 (SELECT name AS results
 FROM MovieRating JOIN Users USING(user_id)
-GROUP BY name
+GROUP BY name 
 ORDER BY COUNT(*) DESC, name
 LIMIT 1)
 
