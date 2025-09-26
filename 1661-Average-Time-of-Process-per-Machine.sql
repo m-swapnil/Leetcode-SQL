@@ -6,7 +6,7 @@ FROM
     JOIN Activity AS EndActivity
     ON StartActivity.machine_id = EndActivity.machine_id
     AND StartActivity.process_id = EndActivity.process_id
-WHERE  
+WHERE 
     StartActivity.activity_type = 'start'
     AND EndActivity.activity_type = 'end'
 GROUP BY
