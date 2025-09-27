@@ -1,4 +1,4 @@
-SELECT DISTINCT 
+SELECT DISTINCT
   author_id AS id
 FROM
   Views 
