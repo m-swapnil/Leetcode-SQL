@@ -1,4 +1,4 @@
-SELECT
+SELECT 
   tweet_id
 FROM
   Tweets
