@@ -5,5 +5,5 @@ FROM
   Followers
 GROUP BY
   user_id
-ORDER BY 
+ORDER BY
   user_id  ASC;
