@@ -4,6 +4,6 @@ SELECT
 FROM
   Followers
 GROUP BY
-  user_id 
+  user_id
 ORDER BY
   user_id  ASC;
