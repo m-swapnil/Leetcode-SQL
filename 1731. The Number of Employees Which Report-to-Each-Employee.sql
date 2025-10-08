@@ -3,7 +3,7 @@ SELECT
     e.name,
     COUNT(r.employee_id) AS reports_count,
     ROUND(AVG(r.age)) AS average_age
-FROM 
+FROM
     Employees e 
 JOIN
     Employees r 
