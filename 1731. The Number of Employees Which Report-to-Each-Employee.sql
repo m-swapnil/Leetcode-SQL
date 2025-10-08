@@ -6,7 +6,7 @@ SELECT
 FROM
     Employees e 
 JOIN
-    Employees r 
+    Employees r
 ON
     e.employee_id = r.reports_to 
 GROUP BY
