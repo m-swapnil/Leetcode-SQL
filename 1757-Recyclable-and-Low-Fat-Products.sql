@@ -2,5 +2,5 @@ SELECT
   product_id
 FROM
   Products 
-WHERE 
+WHERE
   low_fats = 'Y' AND recyclable = 'Y'
