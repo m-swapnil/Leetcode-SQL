@@ -1,5 +1,5 @@
 SELECT
-  product_id 
+  product_id
 FROM
   Products 
 WHERE 
