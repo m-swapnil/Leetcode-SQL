@@ -1,4 +1,4 @@
-SELECT
+SELECT 
   MAX(salary) AS SecondHighestSalary
 FROM 
   Employee 
