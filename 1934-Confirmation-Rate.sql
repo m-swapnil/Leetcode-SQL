@@ -5,7 +5,7 @@ from
     signups
 left join 
     confirmations
-    on
+    on 
     signups.user_id = confirmations.user_id
 group by
     user_id;
