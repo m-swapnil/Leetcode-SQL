@@ -1,6 +1,6 @@
 DELETE
   p1
-FROM
+FROM 
   Person p1
 JOIN
   Person p2
