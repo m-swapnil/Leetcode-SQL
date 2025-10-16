@@ -2,7 +2,7 @@ DELETE
   p1
 FROM 
   Person p1
-JOIN
+JOIN 
   Person p2
 ON
   p1.email = p2.email 
