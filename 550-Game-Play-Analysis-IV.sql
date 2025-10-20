@@ -6,7 +6,7 @@ WITH FirstLogin AS (
 NextDayLogin AS (
     SELECT DISTINCT a.player_id
     FROM Activity a 
-    JOIN FirstLogin f
+    JOIN FirstLogin f 
     ON a.player_id = f.player_id
     AND a.event_date = DATE_ADD(f.first_login, INTERVAL 1 DAY)
 )
