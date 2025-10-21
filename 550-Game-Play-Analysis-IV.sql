@@ -1,7 +1,7 @@
 WITH FirstLogin AS (
-    SELECT player_id, MIN(event_date) AS first_login
-    FROM Activity 
-    GROUP BY player_id 
+    SELECT player_id, MIN(event_date) AS first_login 
+    FROM Activity
+    GROUP BY player_id
 ),
 NextDayLogin AS (
     SELECT DISTINCT a.player_id
