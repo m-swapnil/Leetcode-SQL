@@ -1,5 +1,5 @@
 SELECT name
-FROM Employee 
+FROM Employee
 WHERE id IN (
     SELECT managerId
     FROM Employee 
