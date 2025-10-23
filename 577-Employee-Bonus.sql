@@ -1,4 +1,4 @@
-SELECT 
+SELECT
     Employee.name,
     Bonus.bonus
 FROM
