@@ -5,6 +5,6 @@ FROM
     Employee
 LEFT JOIN
     Bonus
-ON 
+ON
     Employee.empId = Bonus.empId
 WHERE Bonus.bonus < 1000 OR Bonus.bonus IS NULL;
