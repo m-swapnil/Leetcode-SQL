@@ -1,7 +1,7 @@
 SELECT
   name,
   population,
-  area 
+  area
 FROM
   World
 WHERE
