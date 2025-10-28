@@ -1,4 +1,4 @@
-SELECT 
+SELECT
   name,
   population,
   area 
