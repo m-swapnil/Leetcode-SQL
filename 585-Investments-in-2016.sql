@@ -3,7 +3,7 @@ WITH InsuranceWithCounts AS (
         tiv_2016,
         COUNT(*) OVER (PARTITION BY tiv_2015) AS tiv_2015_count,
         COUNT(*) OVER (PARTITION BY lat, lon) AS city_count
-    FROM Insurance
+    FROM Insurance 
 )
 SELECT ROUND(SUM(tiv_2016), 2) AS tiv_2016
 FROM InsuranceWithCounts
