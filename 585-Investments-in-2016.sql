@@ -6,5 +6,5 @@ WITH InsuranceWithCounts AS (
     FROM Insurance 
 )
 SELECT ROUND(SUM(tiv_2016), 2) AS tiv_2016 
-FROM InsuranceWithCounts
+FROM InsuranceWithCounts 
 WHERE tiv_2015_count > 1 AND city_count = 1;
